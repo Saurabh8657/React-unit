@@ -1,0 +1,23 @@
+.products {
+  width: 90%;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+.products > div {
+  background-color: white;
+  padding-inline: 15px;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+.products button {
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 25px;
+  display: block;
+  margin-inline: auto;
+}
+.products img {
+  width: 100%;
+}

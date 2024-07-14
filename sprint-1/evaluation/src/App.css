@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.student-container{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  gap: 5rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.studentCard{
+  border: 2px solid grey;
+  width: 20%;
+}
+
+.student-container img{
+  margin-top: 10px;
+  width: 7rem;
+  border: 2px solid grey;
+  border-radius: 50%;
+}

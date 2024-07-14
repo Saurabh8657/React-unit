@@ -1,0 +1,103 @@
+.App {
+  font-family: cursive;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+}
+
+.navigate {
+  padding: 6px;
+  border: 4px solid rgb(32, 35, 36);
+  border-radius: 6px;
+  background-color: black;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  margin-left: 18px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  background-color: rgb(232, 229, 229);
+}
+a {
+  text-decoration: none;
+}
+.stop-watch {
+  display: grid;
+  place-items: center;
+  height: 45vh;
+  border-radius: 5px;
+}
+
+#main {
+  border: 2px solid gray;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Style for the container div */
+.stop-watch {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Style for the input */
+input[type="number"] {
+  width: 95%;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid gray;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+/* Style for the buttons */
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Style for the Start button */
+#start {
+  background-color: #4caf50; /* Green */
+  color: white;
+  border: none;
+}
+
+/* Style for the Stop button */
+#stop {
+  background-color: #f44336; /* Red */
+  color: white;
+  border: none;
+}
+
+/* Style for the Reset button */
+#reset {
+  background-color: #008cba; /* Blue */
+  color: white;
+  border: none;
+}
+
+/* Style for the timer display */
+#timer {
+  font-size: 19px;
+  margin-top: 20px;
+}
+
+/* Style for the button container */
+/* div > div {
+  display: flex;
+  justify-content: center;
+} */

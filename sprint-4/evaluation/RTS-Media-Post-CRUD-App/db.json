@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "name": "Intro t0 React",
+      "author": "Albert",
+      "image": "https://www.datocms-assets.com/45470/1631110818-logo-react-js.png",
+      "content": "Let's learn react",
+      "category": "react",
+      "like": 2,
+      "dislike": 1,
+      "id": 1
+    }
+  ]
+}

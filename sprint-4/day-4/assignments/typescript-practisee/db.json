@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": "be22",
+      "task": "Nashta",
+      "status": false
+    },
+    {
+      "id": "71db",
+      "task": "Lunch",
+      "status": true
+    },
+    {
+      "id": "05c1",
+      "task": "Dinner",
+      "status": false
+    }
+  ]
+}

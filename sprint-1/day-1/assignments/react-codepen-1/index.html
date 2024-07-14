@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .card {
+        border: 2px solid #ddd;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+      }
+
+      img {
+        border-radius: 5%;
+        margin-bottom: 10px;
+      }
+
+      .phone {
+        margin-top: 10px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app"></div>
+  <!-- //////////// script is in react /////////////// -->
+    <!-- <script>
+      
+const person1 = {
+  name: "John Doe",
+  age: 30,
+  hobbies: ["Reading", "Writing", "Coding"],
+  phone: {
+    landline: "555-1234",
+    mobile: "9000000000",
+  },
+  image: "https://picsum.photos/200",
+  isMarried: true,
+};
+
+const person2 = {
+  name: "Alexa Queen",
+  age: 26,
+  hobbies: ["Surfing", "Travel", "Sports"],
+  phone: {
+    landline: "555-5678",
+    mobile: "09090909090",
+  },
+  image: "https://picsum.photos/200",
+  isMarried: false,
+};
+function Person(props){
+  return (
+    <div className="card">
+      <img src={props.person.image} alt={props.person.name}/>
+      <h2> {props.person.name} </h2>
+      <p> {props.person.age} </p>
+      <div> Hobbies:
+          <ol>
+            {props.person.hobbies.map((hoby,index)=>
+              <li key:{index}>{hoby} </li>
+            )}
+            </ol>
+        </div>
+      <p> landline: {props.person.phone.landline} </p>
+      <p> mobile : {props.person.phone.mobile} </p>
+      <p> is Married : {props.person.isMarried}? "Yes":"No" </p>
+</div>
+  )
+}
+function App(){
+  return(
+    <div>
+      <Person person={person1} />
+     <Person person={person2}/>
+    </div>
+  )
+}
+ReactDOM.render(<App/>, document.getElementById("app"));
+    </script> -->
+  </body>
+</html>

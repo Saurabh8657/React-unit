@@ -1,0 +1,3 @@
+export const LOGIN = "LOGIN";
+export const FETCH_GROCERIES = "FETCH_GROCERIES";
+export const FETCHING_GROCERIES = "FETCHING_GROCERIES";

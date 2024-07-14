@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+form {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: large;
+  font-weight: 600;
+  align-items: center;
+  box-shadow: 4px 2px 4px 2px grey;
+}
+
+.activity-wrapper,
+.user-wrapper,
+.gender-wrapper,
+.time-wrapper {
+  display: flex;
+  margin: 0.5rem 0;
+  width: 500px;
+  gap: 40px;
+  justify-content: flex-start;
+}
+
+label {
+  width: 200px;
+  text-align: start;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: aquamarine;
+}
+
+.activity-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 40%;
+  border: 1px solid gray;
+  margin: 20px auto;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.red {
+  background-color: red;
+}

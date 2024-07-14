@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .card {
+        border: 2px solid #ddd;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+      }
+
+      img {
+        border-radius: 5%;
+        margin-bottom: 10px;
+      }
+
+      .phone {
+        margin-top: 10px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+  <!-- //////////// script is react /////////////// -->
+   <script>
+
+function Avatar(props) {
+  const avatarStyle = {
+    width: "100px",
+    height: "100px",
+    borderRadius: props.isRounded ? "30px" : "0",
+  };
+
+  return (
+    <div style={avatarStyle}>
+      <img src={props.image} alt={props.name} style={{ borderRadius: avatarStyle.borderRadius }} />
+      <h2>{props.isShow ? props.name : ""}</h2>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <div>
+      <Avatar
+        image="https://images.unsplash.com/photo-1704402864101-1185cc83f92c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8"
+        isRounded={true}
+        name="Saurav Ganguly"
+        isShow={true}
+      />
+      <Avatar
+        image="https://images.unsplash.com/photo-1704402864101-1185cc83f92c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8"
+        isRounded={false}
+        name="Saurav Ganguly"
+        isShow={false}
+      />
+    </div>
+  );
+}
+
+// ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(<App />, document.getElementById("app"));
+   </script>
+  </body>
+</html>
